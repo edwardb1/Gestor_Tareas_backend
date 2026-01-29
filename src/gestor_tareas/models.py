@@ -7,6 +7,7 @@ class OfectaLaboralDB(Base):
     Este modelo  define la tabla 'ofertas' en la base de datos
 
     """
+    __tablename__="ofertas"
     id= Column(Integer, primary_key=True, index=True)
 
     titulo=Column(String, index=True)
